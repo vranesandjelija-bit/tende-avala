@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija | Tende Avala</title>
+    <link rel="stylesheet" href="galerija.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">TENDE <span>AVALA</span></div>
+
+        <input type="checkbox" id="nav-check">
+        <label for="nav-check" class="nav-toggler" aria-label="Otvori meni">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="navbar">
+            <div class="nav-main-links">
+                <a href="pocetna.html" class="nav-pill">Početna</a>
+
+                <div class="nav-dropdown services-dropdown">
+                    <button type="button" class="nav-link-btn dropdown-trigger" aria-expanded="false">
+                        Usluge <span class="chevron">▾</span>
+                    </button>
+
+                    <div class="dropdown-menu nav-services-mobile">
+                        <a href="usluge.html">Pregled usluga</a>
+                        <a href="usluge.html#obicne-tende">Obične Tende</a>
+                        <a href="usluge.html#podijumi">Podijumi</a>
+                        <a href="usluge.html#pergole">Pergole</a>
+                        <a href="usluge.html#folije">Providne Folije</a>
+                        <a href="usluge.html#roletne-venecijaneri">Roletne i Venecijaneri</a>
+                        <a href="usluge.html#zastori-skrinovi">Zastori i Skrinovi</a>
+                        <a href="usluge.html#komarnici">Komarnici</a>
+                        <a href="usluge.html#metalne-konstrukcije">Metalne Konstrukcije</a>
+                    </div>
+                </div>
+
+                <a href="galerija.html" class="nav-pill active">Galerija</a>
+            </div>
+
+            <div class="nav-actions">
+                <div class="contact-dropdown">
+                    <button type="button" class="contact-btn">
+                        Kontaktirajte nas
+                    </button>
+                    <div class="contact-popup">
+                        <span>Direktan poziv</span>
+                        <a href="tel:+381646512272">+381 64 6512272</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gal-hero">
+            <span class="tag">NAŠI RADOVI</span>
+            <h1>Galerija Projekata</h1>
+            <p class="lead">Inspiracija za vaš prostor. Svaka slika je dokaz našeg kvaliteta i pažnje posvećene detaljima.</p>
+            
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">Sve</button>
+                <button class="filter-btn" data-filter="tende">Tende</button>
+                <button class="filter-btn" data-filter="pergole">Pergole</button>
+                <button class="filter-btn" data-filter="skrinovi">Skrinovi i zastori</button>
+                <button class="filter-btn" data-filter="konstrukcije">Konstrukcije</button>
+                <button class="filter-btn" data-filter="folije">Folije</button>
+            </div>
+        </section>
+
+        <div class="gallery-grid" id="main-grid">
+            <div class="gal-card konstrukcije">
+                <img src="slike/konstrukcije/konstrukcija1-1.JPG" alt="Konstrukcija">
+                <div class="overlay"><div class="info"><span class="cat">Konstrukcije</span><h3>Noseći profil</h3></div></div>
+            </div>
+            <div class="gal-card konstrukcije">
+                <img src="slike/konstrukcije/konstrukcija1-2.JPG" alt="Konstrukcija">
+                <div class="overlay"><div class="info"><span class="cat">Konstrukcije</span><h3>Metalna konstrukcija</h3></div></div>
+            </div>
+            <div class="gal-card konstrukcije">
+                <img src="slike/konstrukcije/konstrukcija1-3.JPG" alt="Konstrukcija">
+                <div class="overlay"><div class="info"><span class="cat">Konstrukcije</span><h3>Noseći profil</h3></div></div>
+            </div>
+            <div class="gal-card konstrukcije">
+                <img src="slike/konstrukcije/konstrukcija2.JPG" alt="Konstrukcija">
+                <div class="overlay"><div class="info"><span class="cat">Konstrukcije</span><h3>Metalna konstrukcija</h3></div></div>
+            </div>
+
+            <div class="gal-card skrinovi">
+                <img src="slike/komarnici/komarnik1.JPG" alt="Komarnik">
+                <div class="overlay"><div class="info"><span class="cat">Komarnici</span><h3>Komarnik</h3></div></div>
+            </div>
+
+            <div class="gal-card pergole">
+                <img src="slike/pergole/pergola1.JPG" alt="Pergola">
+                <div class="overlay"><div class="info"><span class="cat">Pergole</span><h3>Drvena pergola</h3></div></div>
+            </div>
+            <div class="gal-card pergole">
+                <img src="slike/pergole/pergola2.JPG" alt="Pergola">
+                <div class="overlay"><div class="info"><span class="cat">Pergole</span><h3>Sistem pergola</h3></div></div>
+            </div>
+
+            <div class="gal-card tende">
+                <img src="slike/tenda/tenda1.JPG" alt="Tenda">
+                <div class="overlay"><div class="info"><span class="cat">Tende</span><h3>Sistem tendi</h3></div></div>
+            </div>
+            <div class="gal-card tende">
+                <img src="slike/tenda/tenda2.JPG" alt="Tenda">
+                <div class="overlay"><div class="info"><span class="cat">Tende</span><h3>Tenda za izlog</h3></div></div>
+            </div>
+            <div class="gal-card tende">
+                <img src="slike/tenda/tenda3.JPG" alt="Tenda">
+                <div class="overlay"><div class="info"><span class="cat">Tende</span><h3>Balkonska tenda</h3></div></div>
+            </div>
+            <div class="gal-card tende">
+                <img src="slike/tenda/tenda4.JPG" alt="Tenda">
+                <div class="overlay"><div class="info"><span class="cat">Tende</span><h3>Tenda za izlog</h3></div></div>
+            </div>
+            <div class="gal-card tende">
+                <img src="slike/tenda/tenda5.JPG" alt="Tenda">
+                <div class="overlay"><div class="info"><span class="cat">Tende</span><h3>Tenda za baštu</h3></div></div>
+            </div>
+            <div class="gal-card tende">
+                <img src="slike/tenda/tenda6.JPG" alt="Tenda">
+                <div class="overlay"><div class="info"><span class="cat">Tende</span><h3>Balkonska tenda</h3></div></div>
+            </div>
+            <div class="gal-card tende">
+                <img src="slike/tenda/tenda7.JPG" alt="Tenda">
+                <div class="overlay"><div class="info"><span class="cat">Tende</span><h3>Balkonska tenda</h3></div></div>
+            </div>
+            <div class="gal-card tende">
+                <img src="slike/tenda/tenda8.JPG" alt="Tenda">
+                <div class="overlay"><div class="info"><span class="cat">Tende</span><h3>Tenda</h3></div></div>
+            </div>
+            <div class="gal-card tende">
+                <img src="slike/tenda/tenda9.JPG" alt="Tenda">
+                <div class="overlay"><div class="info"><span class="cat">Tende</span><h3>Tenda</h3></div></div>
+            </div>
+            <div class="gal-card tende">
+                <img src="slike/tenda/tenda10.JPG" alt="Tenda">
+                <div class="overlay"><div class="info"><span class="cat">Tende</span><h3>Tenda</h3></div></div>
+            </div>
+
+            <div class="gal-card folije">
+                <img src="slike/folije/folija1.JPG" alt="Folija">
+                <div class="overlay"><div class="info"><span class="cat">Folije</span><h3>PVC Folija</h3></div></div>
+            </div>
+            <div class="gal-card folije">
+                <img src="slike/folije/folija2.JPG" alt="Folija">
+                <div class="overlay"><div class="info"><span class="cat">Folije</span><h3>PVC Folija</h3></div></div>
+            </div>
+            <div class="gal-card folije">
+                <img src="slike/folije/folija3.JPG" alt="Folija">
+                <div class="overlay"><div class="info"><span class="cat">Folije</span><h3>PVC Folija</h3></div></div>
+            </div>
+            <div class="gal-card folije">
+                <img src="slike/folije/folija4.JPG" alt="Folija">
+                <div class="overlay"><div class="info"><span class="cat">Folije</span><h3>PVC Folija</h3></div></div>
+            </div>
+            <div class="gal-card folije">
+                <img src="slike/folije/folija5.JPG" alt="Folija">
+                <div class="overlay"><div class="info"><span class="cat">Folije</span><h3>PVC Folija</h3></div></div>
+            </div>
+
+            <div class="gal-card skrinovi">
+                <img src="slike/skrinovi/skrin1.JPG" alt="Skrin">
+                <div class="overlay"><div class="info"><span class="cat">Skrinovi</span><h3>Skrin sistem</h3></div></div>
+            </div>
+            <div class="gal-card skrinovi">
+                <img src="slike/skrinovi/skrin3.JPG" alt="Skrin">
+                <div class="overlay"><div class="info"><span class="cat">Skrinovi</span><h3>Skrin</h3></div></div>
+            </div>
+            <div class="gal-card skrinovi">
+                <img src="slike/skrinovi/skrin4.JPG" alt="Skrin">
+                <div class="overlay"><div class="info"><span class="cat">Skrinovi</span><h3>Skrin</h3></div></div>
+            </div>
+            <div class="gal-card skrinovi">
+                <img src="slike/skrinovi/zastor1.JPG" alt="Zastor">
+                <div class="overlay"><div class="info"><span class="cat">Zastor</span><h3>Zastor</h3></div></div>
+            </div>
+            <div class="gal-card skrinovi">
+                <img src="slike/skrinovi/zastor2.JPG" alt="Zastor">
+                <div class="overlay"><div class="info"><span class="cat">Zastor</span><h3>Zastor</h3></div></div>
+            </div>
+
+            <div class="gal-card podijumi">
+                <img src="slike/podijumi/podijum1.JPG" alt="Podijum">
+                <div class="overlay"><div class="info"><span class="cat">Podijumi</span><h3>Drveni podijum</h3></div></div>
+            </div>
+        </div>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lbox">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" alt="Uvećana slika">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <div class="footer-wrap">
+            <div class="footer-brand">
+                <div class="logo">TENDE <span>AVALA</span></div>
+                <p>Dugogodišnje iskustvo u zemlji i inostranstvu.</p>
+            </div>
+            
+            <div class="footer-info">
+                <p><strong>Kontakt:</strong></p>
+                <p>avalatende@gmail.com</p>
+                <p>+381 64 6512272</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tende Avala. Sva prava zadržana.</p>
+        </div>
+    </footer>
+
+    <script>
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const cards = document.querySelectorAll('.gal-card');
+        const navCheck = document.getElementById('nav-check');
+
+        function closeAllDropdowns() {
+            document.querySelectorAll('.services-dropdown, .contact-dropdown').forEach(drop => {
+                drop.classList.remove('open');
+            });
+
+            document.querySelectorAll('.dropdown-trigger').forEach(btn => {
+                btn.setAttribute('aria-expanded', 'false');
+            });
+        }
+
+        document.querySelectorAll('.dropdown-trigger, .contact-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const wrapper = btn.closest('.services-dropdown, .contact-dropdown');
+                const isOpen = wrapper.classList.contains('open');
+
+                closeAllDropdowns();
+
+                if (!isOpen) {
+                    wrapper.classList.add('open');
+                    if (btn.classList.contains('dropdown-trigger')) {
+                        btn.setAttribute('aria-expanded', 'true');
+                    }
+                }
+
+                e.stopPropagation();
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-dropdown') && !e.target.closest('.contact-dropdown')) {
+                closeAllDropdowns();
+            }
+        });
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.getAttribute('data-filter');
+
+                cards.forEach(card => {
+                    if (filter === 'all' || card.classList.contains(filter)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const caption = document.getElementById('caption');
+        const closeBtn = document.querySelector('.close-lbox');
+
+        cards.forEach(card => {
+            card.addEventListener('click', () => {
+                const img = card.querySelector('img');
+                const titleElement = card.querySelector('h3');
+                const title = titleElement ? titleElement.innerText : img.alt;
+
+                lightbox.style.display = 'flex';
+                lightboxImg.src = img.src;
+                caption.innerText = title;
+            });
+        });
+
+        closeBtn.onclick = () => lightbox.style.display = 'none';
+        lightbox.onclick = (e) => {
+            if (e.target === lightbox) lightbox.style.display = 'none';
+        };
+
+        document.querySelectorAll('.navbar a').forEach(link => {
+            link.addEventListener('click', () => {
+                navCheck.checked = false;
+                closeAllDropdowns();
+            });
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                lightbox.style.display = 'none';
+                navCheck.checked = false;
+                closeAllDropdowns();
+            }
+        });
+    </script>
+</body>
+</html>
